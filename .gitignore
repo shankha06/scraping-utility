@@ -1,0 +1,59 @@
+# Python files
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# Testing-related files
+.pytest_cache/
+test-reports/
+coverage/
+
+# IDE-specific files
+.idea/
+*.iml
+*.DS_Store
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+virtualenv/
+
+# Logs and temporary files
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+
+# Specific to some Python tools
+.ropeproject/
+.ruff_cache/
+.bandit/
+.pylintrc
+.isort.cfg
+.venv/
+
+# Local configuration
+local_settings.py
+config.local.py
+
+# Specific to Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Containerization
+Dockerfile*
+docker-compose.yml
+.dockerignore
+
+# Others
+*.sqlite
+*.pcapng

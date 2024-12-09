@@ -1,0 +1,32 @@
+[project]
+name = "scraping-utility"
+version = "0.1.0"
+description = "A responsible web scraping utility"
+authors = ["Shankhadeep Roy <shankharay.917@gmail.com>"]
+readme = "README.md"
+license = {text = "MIT License"}
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "flask>=3.1.0",
+    "pandas>=2.2.3",
+    "pytest>=8.3.3",
+    "requests>=2.32.3",
+    "ruff>=0.8.0",
+    "PyYAML>=6.0.2",
+    "typer>=0.13.1",
+    "seaborn>=0.13.2",
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+Issues = "https://github.com/me/spam/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+# Optional: Define minimum Python version in [tool.uv]
+[dev-dependencies]
+pytest-cov = "^4.1.0"
+black = "^23.3.0"
+flake8 = "^5.0.0"
